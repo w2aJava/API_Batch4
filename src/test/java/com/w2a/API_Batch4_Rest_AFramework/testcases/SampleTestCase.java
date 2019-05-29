@@ -14,13 +14,13 @@ public class SampleTestCase  extends TestSetup{
 	
 	
 	@Test
-	public void validateCreateCustomerAPIWithvalidSecretKey() {
+	public void validateCustomerAPIValidData() {
 		
 		
-		Response response=given().auth().basic("sk_test_kzxPb2wjsBPiIh7QxZKqJU3a", "")
+		Response response=given().auth().basic(configProperties.getValidSecretKey(), "")
 		.formParam("email", "rest@gmail.com")
 		.formParam("description", "Test User")
-		.post("/customers");
+		.post("");
 		
 		response.prettyPrint();
 		

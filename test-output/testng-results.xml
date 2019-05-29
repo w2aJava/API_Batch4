@@ -2,60 +2,102 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5439" started-at="2019-05-25T06:23:23Z" finished-at="2019-05-25T06:23:28Z">
+  <suite name="Default suite" duration-ms="26" started-at="2019-05-26T06:05:05Z" finished-at="2019-05-26T06:05:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5439" started-at="2019-05-25T06:23:23Z" finished-at="2019-05-25T06:23:28Z">
-      <class name="com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="setUp" is-config="true" duration-ms="524" started-at="2019-05-25T11:53:22Z" finished-at="2019-05-25T11:53:23Z">
+    <test name="Default test" duration-ms="26" started-at="2019-05-26T06:05:05Z" finished-at="2019-05-26T06:05:05Z">
+      <class name="com.w2a.API_Batch4_Rest_AFramework.rough.Rough">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2019-05-26T11:35:05Z" finished-at="2019-05-26T11:35:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-05-25T11:53:23Z" finished-at="2019-05-25T11:53:23Z">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-05-26T11:35:05Z" finished-at="2019-05-26T11:35:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-05-25T11:53:23Z" finished-at="2019-05-25T11:53:23Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-05-26T11:35:05Z" finished-at="2019-05-26T11:35:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-25T11:53:23Z" finished-at="2019-05-25T11:53:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateCreateCustomerAPIWithInvalidSecretKey()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="validateCreateCustomerAPIWithInvalidSecretKey" duration-ms="3353" started-at="2019-05-25T11:53:23Z" finished-at="2019-05-25T11:53:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreateCustomerAPIWithInvalidSecretKey -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-25T11:53:26Z" finished-at="2019-05-25T11:53:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="validateCreateCustomerAPIWithvalidSecretKey()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="validateCreateCustomerAPIWithvalidSecretKey" duration-ms="1978" started-at="2019-05-25T11:53:26Z" finished-at="2019-05-25T11:53:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreateCustomerAPIWithvalidSecretKey -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-25T11:53:26Z" finished-at="2019-05-25T11:53:26Z">
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-26T11:35:05Z" finished-at="2019-05-26T11:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.w2a.API_Batch4_Rest_AFramework.rough.Rough.testCase1(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="AfterClass" is-config="true" duration-ms="0" started-at="2019-05-25T11:53:28Z" finished-at="2019-05-25T11:53:28Z">
+        <test-method status="PASS" signature="testCase1(java.lang.String)[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="testCase1" duration-ms="4" started-at="2019-05-26T11:35:05Z" data-provider="dp" finished-at="2019-05-26T11:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-25T11:53:28Z" finished-at="2019-05-25T11:53:28Z">
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-26T11:35:05Z" finished-at="2019-05-26T11:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase1 status=SUCCESS method=Rough.testCase1(java.lang.String)[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-05-25T11:53:28Z" finished-at="2019-05-25T11:53:28Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-26T11:35:05Z" finished-at="2019-05-26T11:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.w2a.API_Batch4_Rest_AFramework.rough.Rough.testCase2(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase2(java.lang.String)[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="testCase2" duration-ms="0" started-at="2019-05-26T11:35:05Z" data-provider="dp" finished-at="2019-05-26T11:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-05-26T11:35:05Z" finished-at="2019-05-26T11:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-26T11:35:05Z" finished-at="2019-05-26T11:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase2 status=SUCCESS method=Rough.testCase2(java.lang.String)[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-05-26T11:35:05Z" finished-at="2019-05-26T11:35:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase@1134affc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-05-25T11:53:28Z" finished-at="2019-05-25T11:53:28Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.w2a.API_Batch4_Rest_AFramework.rough.Rough@1134affc]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-05-26T11:35:06Z" finished-at="2019-05-26T11:35:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase -->
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.w2a.API_Batch4_Rest_AFramework.rough.Rough -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
