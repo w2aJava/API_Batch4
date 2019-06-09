@@ -7,10 +7,10 @@ import org.testng.annotations.DataProvider;
 
 import com.w2a.API_Batch4_Rest_AFramework.setUp.TestSetup;
 
-public class DataProviderClass extends TestSetup{
+public class Data extends TestSetup{
 
-	@DataProvider(name = "dp")
-	public Object[][] getData(Method m)
+	@DataProvider(name = "data")
+	public static Object[][] getData(Method m)
 	{
 		String sheetName = m.getName();// testCase01
 		int rows = excel.getRowCount(sheetName);// 3
